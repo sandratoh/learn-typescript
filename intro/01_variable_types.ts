@@ -13,8 +13,8 @@ console.log(sentence);
 let n: null = null;
 let u: undefined = undefined;
 
-let isNew: boolean = null;
-let myName: string = undefined;
+// let isNew: boolean = null;
+// let myName: string = undefined;
 
 // Array syntax (no difference)
 let list1: number[] = [1, 2, 3];

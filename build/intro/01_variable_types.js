@@ -9,8 +9,8 @@ I am learning TypeScript.`;
 console.log(sentence);
 let n = null;
 let u = undefined;
-let isNew = null;
-let myName = undefined;
+// let isNew: boolean = null;
+// let myName: string = undefined;
 // Array syntax (no difference)
 let list1 = [1, 2, 3];
 let list2 = [1, 2, 3];
