@@ -1,6 +1,6 @@
 // TYPE ALIASES -- a name for any type
 
-// Type alis for union type
+// Type alias for union type
 type ID = number | string;
 
 // Type alias for object type

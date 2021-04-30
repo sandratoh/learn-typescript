@@ -23,3 +23,11 @@ obj();
 obj.bar = 100;
 obj = 'hello';
 const n: number = obj;
+
+// Type `void`
+// When there is no type associated with something
+// Common use: return value of function that doesn't return anything
+
+const darkestPlaceOnEarth = (): void => {
+  console.log('Marianas Trench');
+};
