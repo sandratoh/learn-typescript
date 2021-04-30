@@ -26,3 +26,11 @@ const n = obj;
 const darkestPlaceOnEarth = () => {
     console.log('Marianas Trench');
 };
+// Function declaration syntax
+function logNumber(i) {
+    console.log(i);
+}
+// Arrow function syntax
+const logNumber2 = i => {
+    console.log(i);
+};
