@@ -6,12 +6,22 @@ const booleanVar: boolean = true;
 // Arrays
 const numArr: number[] = [1, 2, 3];
 const strArr: string[] = ['a', 'b', 'c'];
+const booleanArr: boolean[] = [true, false];
 
 // Array alt syntax
 const altNumArr: Array<number> = [4, 5, 6];
 const altStrArr: Array<string> = ['d', 'e', 'f'];
+const altBooleanArr: Array<boolean> = [false, true];
 
 // Note: [number] is a different thing, refer to tuple types
+
+// Nested Array -- think (string[])[]
+const nestedStrArr: string[][] = [strArr, altStrArr, ['g', 'h']];
+const nestedBooleanArr: boolean[][] = [[true], booleanArr];
+const nestedNumArr: number[][][] = [
+  [[7], [8, 9]],
+  [[10], numArr],
+];
 
 // Type `any`
 let obj: any = { x: 0 };

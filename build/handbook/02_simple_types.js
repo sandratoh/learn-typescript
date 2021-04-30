@@ -6,10 +6,19 @@ const booleanVar = true;
 // Arrays
 const numArr = [1, 2, 3];
 const strArr = ['a', 'b', 'c'];
+const booleanArr = [true, false];
 // Array alt syntax
 const altNumArr = [4, 5, 6];
 const altStrArr = ['d', 'e', 'f'];
+const altBooleanArr = [false, true];
 // Note: [number] is a different thing, refer to tuple types
+// Nested Array -- think (string[])[]
+const nestedStrArr = [strArr, altStrArr, ['g', 'h']];
+const nestedBooleanArr = [[true], booleanArr];
+const nestedNumArr = [
+    [[7], [8, 9]],
+    [[10], numArr],
+];
 // Type `any`
 let obj = { x: 0 };
 // None of the following lines of code will throw compiler errors.
