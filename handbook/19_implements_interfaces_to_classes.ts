@@ -2,16 +2,22 @@
 // Use TS keyword `implements`
 
 interface Directory {
-  // Nested type member here
-  config: {
-    default: {
-      encoding: string;
-      permissions: string;
-    };
-  };
+  // Refactor nested types with composed types
+  config: Config;
 
   // Class method type here
   addFile: (name: string) => void;
+}
+
+// Composed Type 1
+interface DefaultConfig {
+  encoding: string;
+  permissions: string;
+}
+
+// Composed Type 2
+interface Config {
+  default: DefaultConfig;
 }
 
 // Example 1: Add type to `DesktopDirectory` class by implementing `Directory` interface
