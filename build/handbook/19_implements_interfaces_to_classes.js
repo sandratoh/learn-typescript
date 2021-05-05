@@ -1,5 +1,5 @@
 "use strict";
-// Add types to a `class` by implementing an `interface`
+// Add types to a `class` by applying/implementing an `interface`
 // Use TS keyword `implements`
 // Example 1: Add type to `DesktopDirectory` class by implementing `Directory` interface
 class DesktopDirectory {

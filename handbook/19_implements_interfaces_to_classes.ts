@@ -1,4 +1,4 @@
-// Add types to a `class` by implementing an `interface`
+// Add types to a `class` by applying/implementing an `interface`
 // Use TS keyword `implements`
 
 interface Directory {
