@@ -4,7 +4,7 @@ function identityWithoutGenerics1(arg: number): number {
   return arg;
 }
 
-// Ccase 2: Generic-ish with any, but loses info about return value
+// Case 2: Generic-ish with any, but loses info about return value
 function identityWithoutGenerics2(arg: any): any {
   return arg;
 }
