@@ -39,11 +39,11 @@ const darkestPlaceOnEarth = () => {
 function logNumber(i) {
     console.log(i);
 }
-// Arrow function syntax
+// Arrow function syntax -- single param no bracket
 const logNumber2 = i => {
     console.log(i);
 };
-// Shorter Arrow function syntax
+// Shorter Arrow function syntax -- single param has bracket
 const logNumber3 = (i) => {
     console.log(i);
 };
