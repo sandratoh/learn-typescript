@@ -1,5 +1,6 @@
 "use strict";
 // UNION TYPES
+// Type narrowing is when TypeScript can figure out what type a variable can be based on the variable’s surrounding code.
 function printId(id) {
     console.log('Your ID is: ' + id);
     // console.log(id.toUpperCase()); // Must use narrowing to access type-specificc methods
@@ -32,3 +33,21 @@ function getFirstThree(x) {
     // Return type is inferred as number[] | string
     return x.slice(0, 3);
 }
+// Union and Arrays
+function formatListings(listings) {
+    return listings.map(listing => {
+        if (typeof listing === 'string') {
+            return listing.toUpperCase();
+        }
+        if (typeof listing === 'number') {
+            return `$${listing.toLocaleString()}`;
+        }
+    });
+}
+const result = formatListings([
+    '123 Main St',
+    226800,
+    '580 Broadway Apt 4a',
+    337900,
+]);
+console.log(result);
