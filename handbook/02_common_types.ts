@@ -51,3 +51,8 @@ function logNumber(i: number): void {
 const logNumber2: (i: number) => void = i => {
   console.log(i);
 };
+
+// Shorter Arrow function syntax
+const logNumber3 = (i: number): void => {
+  console.log(i);
+};

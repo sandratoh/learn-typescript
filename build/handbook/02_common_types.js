@@ -43,3 +43,7 @@ function logNumber(i) {
 const logNumber2 = i => {
     console.log(i);
 };
+// Shorter Arrow function syntax
+const logNumber3 = (i) => {
+    console.log(i);
+};
