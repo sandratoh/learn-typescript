@@ -41,18 +41,3 @@ const n: number = obj;
 const darkestPlaceOnEarth = (): void => {
   console.log('Marianas Trench');
 };
-
-// Function declaration syntax
-function logNumber(i: number): void {
-  console.log(i);
-}
-
-// Arrow function syntax -- single param no bracket
-const logNumber2: (i: number) => void = i => {
-  console.log(i);
-};
-
-// Shorter Arrow function syntax -- single param has bracket
-const logNumber3 = (i: number): void => {
-  console.log(i);
-};
